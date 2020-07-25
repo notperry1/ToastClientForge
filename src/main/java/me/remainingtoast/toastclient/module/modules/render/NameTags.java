@@ -37,7 +37,7 @@ public class NameTags extends Module {
 
     @Property("Scale")
     @Clamp(minimum = "2f", maximum = "10f")
-    public float scale = 5f;
+    public float scale = 3f;
 
     @Property("Health")
     public boolean health = true;
