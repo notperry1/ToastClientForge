@@ -1,4 +1,4 @@
-package me.remainingtoast.toastclient.gui.click.panel.modules;
+package me.remainingtoast.toastclient.gui.click.modules;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package me.remainingtoast.toastclient.gui.click.panel.modules.frame;
+package me.remainingtoast.toastclient.gui.click.modules.frame;
 
 import me.remainingtoast.toastclient.util.RenderUtil;
 
