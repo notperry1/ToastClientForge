@@ -125,6 +125,7 @@ shadowJar {
         include(dependency('com.google.code.gson:gson'))
         include(dependency('com.google.code.gson:gson-extras'))
         include(dependency('org.spongepowered:mixin'))
+        include(dependency('club.minnced:java-discord-rpc'))
     }
     classifier = 'release'
 }
