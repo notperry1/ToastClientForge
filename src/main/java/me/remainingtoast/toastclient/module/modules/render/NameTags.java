@@ -49,7 +49,9 @@ public class NameTags extends Module {
         for (EntityPlayer p : mc.world.playerEntities) {
             if ((p != mc.getRenderViewEntity()) && (p.isEntityAlive())) {
                 if (!p.getName().startsWith("Body #")) {
-                    drawNametag(p);
+                    if(mc.player.getDistance(p) < range){
+                        drawNametag(p);
+                    }
                 }
             }
         }
